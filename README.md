@@ -5,7 +5,6 @@ A **Convolutional Neural Network (CNN)** model built using TensorFlow/Keras.
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/your-repo?color=blue&label=Repo%20Size&style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square&logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=flat-square&logo=tensorflow)
-![CNN Model Architecture](model_architecture.png)
 
 ---
 
