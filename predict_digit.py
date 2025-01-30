@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load the trained model
-model = tf.keras.models.load_model("digit_recognition_model.h5")
+model = tf.keras.models.load_model("./digit_recognition_model.h5")
 
 def preprocess_image(image_path):
     """Preprocess any image to match the model input format."""
@@ -61,6 +61,6 @@ def predict_digit(image_path):
     return digit
 
 # Example usage
-image_path = "test_digit.png"  # Replace with your image
+image_path = "./test_digit.png"  # Replace with your image
 predicted_digit = predict_digit(image_path)
 print(f"Predicted Digit: {predicted_digit}")

@@ -71,10 +71,10 @@ def load_idx_labels(filename):
     return labels
 
 # Load MNIST dataset from IDX files
-train_images = load_idx_images("train-images.idx3-ubyte")
-train_labels = load_idx_labels("train-labels.idx1-ubyte")
-test_images = load_idx_images("t10k-images.idx3-ubyte")
-test_labels = load_idx_labels("t10k-labels.idx1-ubyte")
+train_images = load_idx_images("./train-images.idx3-ubyte")
+train_labels = load_idx_labels("./train-labels.idx1-ubyte")
+test_images = load_idx_images("./t10k-images.idx3-ubyte")
+test_labels = load_idx_labels("./t10k-labels.idx1-ubyte")
 
 # Normalize images to range [0,1]
 train_images = train_images.astype("float32") / 255.0
@@ -89,7 +89,7 @@ train_labels = keras.utils.to_categorical(train_labels, 10)
 test_labels = keras.utils.to_categorical(test_labels, 10)
 
 # Load correction dataset (if available)
-correction_images, correction_labels = load_correction_images("correction_dataset")
+correction_images, correction_labels = load_correction_images("./correction_dataset")
 
 if len(correction_images) > 0:
     # Reshape correction images

@@ -2,7 +2,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import plot_model
 
 # Load the model
-model = load_model("digit_recognition_model.h5")
+model = load_model("./digit_recognition_model.h5")
 
 # Print model summary
 model.summary()
