@@ -2,7 +2,6 @@
 
 A **Convolutional Neural Network (CNN)** model built using TensorFlow/Keras.
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Saumy-TOXOTIS/Machine-Learning-Digit-Recognition-Project?color=blue&label=Repo%20Size&style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=flat-square&logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=flat-square&logo=tensorflow)
 
